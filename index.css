@@ -15,14 +15,15 @@ body {
     overflow: hidden;
 }
 .container{
-    overflow: hidden;
-    position: relative;
+    /* overflow: hidden; */
+    position: fixed;
     /* border: 2px solid red; */
     width: 100%;
     height: 10.5vh;
     display: flex;
     flex-direction: row-reverse;
     background-color: #f2e9e9;
+    z-index: 1;
     
 }
 .search-container {
@@ -56,7 +57,7 @@ body {
     max-width: 40px;
     max-height: 40px;
 }
-p{
+.logo{
     position: absolute;
     left: 6%;
     top: 32%;
@@ -104,11 +105,12 @@ p{
 }
 /* nav item */
 .nav-item{
-    position: relative;
     width: 100%;
     height: 7.5vh;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
+   
    
 }
 .nav-item-name{
@@ -125,32 +127,72 @@ p{
 .img-slide{
     border: 2px solid green;
     width: 200%;
-    height: 90vh;
-    overflow:auto;
+    height:90vh;
+   
+    /* overflow:auto; */
+}
+.img-box1, .img-box2{
+    /* border: 2px solid blue; */
+    width:50%;
+    height:100%;
+   
 }
 
-.front-img1{
+.img-box1{
     float:left;
+    position: relative;
+    left: 0;
 }
-.front-img2{
+.img-box2{
     float:right;
+    position: relative;
 }
 
 .front-img1, .front-img2{
-    width:50%;
+    width:100%;
     height:100%;
    
 }
 
 /* arrow style */
 .left-side, .right-side{
-    position: fixed;
-    color: black;
-    font-size: 20px;
+    font-weight: 0px;
+    position: absolute;
+    color: rgb(151, 45, 0);
+    text-align: center;
+    font-size: 21px;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+}
+.left-side:hover, .right-side:hover{
+    color: white;
+    background-color: #832729;
+}
+.right-side{
+    right: 1.5%;
+    top: 60%;
+    
+}
+.left-side{
+    left: 1.5%;
+    top: 60%;
 }
 /* second-page */
 .shop-category{
     width: 100%;
     height: 100vh;
     border: 2px solid rgb(208, 0, 255);
+}  
+.shop-c{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5.5%;
+    color: #832729;
+}
+.instruction{
+    text-align: center;
+    color:black;
+    font-size: 13px;
 }
