@@ -115,10 +115,10 @@ body {
 }
 .nav-item-name{
     position: relative;
-    top: 16px;
+    top: 18px;
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 11.6%;
 }
 .one-item{
@@ -164,25 +164,28 @@ body {
     padding: 1%;
     border-radius: 50%;
     background-color: white;
-    z-index: 2;
+    
 }
 .left-side:hover, .right-side:hover{
     color: white;
     background-color: #832729;
 }
 .right-side{
-    right: 1.5%;
+    right: 0.5%;
     top: 60%;
     
 }
 .left-side{
-    left: 1.5%;
+    left: 0.5%;
     top: 60%;
 }
 /* second-page */
 .shop-category{
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 2px solid rgb(208, 0, 255);
 }  
 .shop-c{
@@ -196,3 +199,64 @@ body {
     color:black;
     font-size: 13px;
 }
+.line{
+    width: 91%;
+    height: 60px;
+}
+.image-lists{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.list-items{
+    border: 1px solid rgb(176, 176, 176);
+    width: 12%;
+    height: 80%;
+    margin: 1.8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.items-background{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(185, 185, 185);
+    /* background-color: black; */
+    border-radius: 50%;
+
+}
+.shop-category-images{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.card-title{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+}
+.card-title-name{
+    text-align: center;
+    color: #832729;
+    font-size: 18px;
+}
+.title-shope-now{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8%;
+    font-weight: 500;
+}
+.Now{
+    margin-right: 20%;
+}
+.bx-chevron-right{
+    font-size: 17px;
+  position: relative;
+  left: 4%;
+}
+
