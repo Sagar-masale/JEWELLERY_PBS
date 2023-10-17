@@ -155,28 +155,38 @@ body {
 }
 
 /* arrow style */
-.left-side, .right-side{
+.swipe-L{
     font-weight: 0px;
     position: absolute;
     color: rgb(151, 45, 0);
     text-align: center;
-    font-size: 21px;
-    padding: 1%;
+    font-size: 30px;
+    padding: 0.9%;
     border-radius: 50%;
     background-color: white;
     
 }
-.left-side:hover, .right-side:hover{
+.swipe-R{
+    font-weight: 0px;
+    position: absolute;
+    color: rgb(151, 45, 0);
+    text-align: center;
+    font-size: 30px;
+    padding: 0.9%;
+    border-radius: 50%;
+    background-color: white;
+}
+.swipe-L:hover, .swipe-R:hover{
     color: white;
     background-color: #832729;
 }
-.right-side{
-    right: 0.5%;
-    top: 60%;
-    
-}
-.left-side{
+
+.swipe-L{
     left: 0.5%;
+    top: 60%;
+}
+.swipe-R{
+    right: 0.5%;
     top: 60%;
 }
 /* second-page */
@@ -219,9 +229,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
+    text-decoration: none;
 }
+/* .list-items:hover{
+    width: 9%;
+    height: 70%;
+} */
 .items-background{
     width: 150px;
     height: 150px;
@@ -239,24 +252,34 @@ body {
     /* border: 1px solid red; */
     width: 100%;
     height: auto;
+   
 }
 .card-title-name{
     text-align: center;
     color: #832729;
     font-size: 18px;
+   
 }
+/* .card-title-name:hover{
+    text-align: left;
+} */
 .title-shope-now{
     text-align: center;
     font-size: 13px;
     margin-top: 8%;
     font-weight: 500;
+    transition: 0.3s;
+
 }
 .Now{
     margin-right: 20%;
+   
+
 }
-.bx-chevron-right{
+.items-arrow{
     font-size: 17px;
   position: relative;
   left: 4%;
+  transition: 0.3s;
 }
 
