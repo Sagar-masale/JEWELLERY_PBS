@@ -422,7 +422,6 @@ width: 100%;
     margin-top: 12%;
     text-decoration: none;
 }
-
 .Go-info-link:hover{
     text-decoration: underline;
     transition: 0.5s;
@@ -435,7 +434,6 @@ width: 100%;
     font-size: 17px;
     margin-top:0%;
 }
-
 .Go-FaceBook,.Go-InstaGram{
     font-size: 32px;
     color: black;
@@ -451,7 +449,6 @@ width: 100%;
 .Go-InstaGram{
     margin-left: 5%;
 }
-
 .store-timing{
     margin-top: 6%;
     font-size: 17px;
@@ -464,7 +461,5 @@ width: 100%;
 @media screen and (max-width:1052px  ) {
 .swipe-L ,.swipe-R{
     display: none;
-   
 }
-
 }
