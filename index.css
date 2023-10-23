@@ -230,7 +230,7 @@ body {
 }
 
 .list-items{
-    border: 1px solid rgb(176, 176, 176);
+    border: 1px solid rgba(176, 176, 176, 0.548);
     color: black;
     height: 243px;
     margin: 1.8%;
@@ -240,6 +240,7 @@ body {
     justify-content: center;
     text-decoration: none;
     transition: 1s;
+    border-radius: 2%;
 }
 .list-items:hover{
     box-shadow: 0px 3px 4px #ffa7a892;
@@ -247,7 +248,7 @@ body {
 .items-background{
     width: 150px;
     height: 150px;
-    border: 1px solid rgb(185, 185, 185);
+    border: 1px solid rgba(255, 186, 186, 0.533);
     /* background-color: black; */
     border-radius: 50%;
 
@@ -302,7 +303,7 @@ body {
 }
 .Gender-List{
     transition: 1s;
-    border: 1px solid rgba(182, 182, 182, 0.711);
+    border: 1px solid rgba(182, 182, 182, 0.46);
     height: fit-content;
     flex: 1 1 300px;
     text-decoration: none;
@@ -422,6 +423,7 @@ width: 100%;
     margin-top: 12%;
     text-decoration: none;
 }
+
 .Go-info-link:hover{
     text-decoration: underline;
     transition: 0.5s;
@@ -434,6 +436,7 @@ width: 100%;
     font-size: 17px;
     margin-top:0%;
 }
+
 .Go-FaceBook,.Go-InstaGram{
     font-size: 32px;
     color: black;
@@ -449,6 +452,7 @@ width: 100%;
 .Go-InstaGram{
     margin-left: 5%;
 }
+
 .store-timing{
     margin-top: 6%;
     font-size: 17px;
@@ -458,8 +462,30 @@ width: 100%;
     border-top: 1px solid black;
     margin-top: 4%;
 }
+.End-Intro{
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 14px;
+}
+.important-instructions{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+ 
+}
+.important-instructions:hover{
+    color: rgba(0, 123, 255, 0.677);
+}
 @media screen and (max-width:1052px  ) {
 .swipe-L ,.swipe-R{
     display: none;
+   
 }
+
 }
