@@ -74,16 +74,20 @@ body {
    
     font-style: normal;
     color: #832729;
+    text-align: center;
+    font-size: 28px; 
+    font-style: normal;
+    margin-top: 5%;
+}
+.top-logo:hover{
+    font-size: 30px;
 }
 .nav-link-logos{
     /* border: 1px solid red; */
-    width: auto;
-    height: fit-content;
+    width: 27%;
+    height: 100%;
     display: flex;
-    gap: 17%;
-
-  
-    
+    gap: 10%;  
 }
 .top-nav-links{
     position: relative;
@@ -91,18 +95,14 @@ body {
     height: 22px;
     /* border: 1px solid red; */
 }
-.top-logo{
-    text-align: center;
-    font-size: 28px; 
-    font-style: normal;
-    margin-top: 8%;
-}
+
 .logo-name{
     font-size: 12px;
     position: relative;
     bottom: 12px;
     color: #832729;
 }
+
 /* nav item */
 .nav-item{
     /* border: 2px solid red; */
