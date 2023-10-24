@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: 1px solid; */
 }
 
 /* Basic styling */
@@ -15,7 +16,6 @@ body {
     overflow: hidden;
 } */
 .container{
-    /* overflow: hidden; */
     position: fixed;
     top: 0;
     overflow: hidden;
@@ -52,12 +52,14 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     
+    
 }
 
 
 .logo-container {
     display: flex;
     gap: 10px;
+   
 }
 
 .logo-container img {
@@ -78,7 +80,9 @@ body {
     width: auto;
     height: fit-content;
     display: flex;
-    gap: 11%;
+    gap: 17%;
+
+  
     
 }
 .top-nav-links{
@@ -89,12 +93,13 @@ body {
 }
 .top-logo{
     text-align: center;
-    font-size: 32px; 
+    font-size: 28px; 
     font-style: normal;
+    margin-top: 8%;
 }
 .logo-name{
-    font-size: 14px;
-   
+    font-size: 12px;
+    position: relative;
     bottom: 12px;
     color: #832729;
 }
@@ -125,14 +130,14 @@ body {
 .img-slide{
     /* border: 2px solid green; */
   
-    width: 200%;
+    width: 100%;
     height:fit-content;
    
     /* overflow:auto; */
 }
 .img-box1, .img-box2{
     /* border: 2px solid blue; */
-    width:50%;
+    width:100%;
     height:fit-content;
    
 }
