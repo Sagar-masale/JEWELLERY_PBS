@@ -8,31 +8,38 @@
 body {
     font-family: Arial, sans-serif;
 }
-.first-container{
-    /* border: 2px solid rgb(106, 0, 255); */
+/* .first-container{
+    border: 2px solid rgb(106, 0, 255);
     width: 100%;
     height: auto;
     overflow: hidden;
-}
+} */
 .container{
     /* overflow: hidden; */
     position: fixed;
+    top: 0;
+    overflow: hidden;
     /* border: 2px solid red; */
     width: 100%;
     height: 10.5vh;
     display: flex;
-    flex-direction: row-reverse;
+    gap: 4%;
+    align-items: center;
+    flex-direction: row;
     background-color: #f2e9e9;
     z-index: 1;
     
 }
+.Logo-Shop{
+    margin-left: 6%;
+}
 .search-container {
     /* border:2px solid #1e1919; */
-    display: flex;
-    position: absolute;
+    /* display: flex; */
+   
     left: 14%;
     border-radius: 5px;
-    top: 22%;
+   
 }
 
 #search {
@@ -58,74 +65,66 @@ body {
     max-height: 40px;
 }
 .logo{
-    position: absolute;
-    left: 6%;
-    top: 32%;
     font-size: 26px;
     color: #832729;
 }
 .top-logo{
-    position: absolute;
-    top: 19%;
-    left: 72%;
+   
     font-style: normal;
     color: #832729;
 }
-.store-l{
+.nav-link-logos{
+    /* border: 1px solid red; */
+    width: auto;
+    height: fit-content;
+    display: flex;
+    gap: 11%;
+    
+}
+.top-nav-links{
+    position: relative;
+    width: 20%;
+    height: 22px;
+    /* border: 1px solid red; */
+}
+.top-logo{
     text-align: center;
     font-size: 32px; 
     font-style: normal;
 }
 .logo-name{
     font-size: 14px;
-    position: relative;
+   
     bottom: 12px;
-    color: #832729;
-}
-.top-logo2{
-    position: absolute;
-    top: 19%;
-    left: 78%;
-    font-style: normal;
-    color: #832729;
-}
-.top-logo3{
-    position: absolute;
-    top: 19%;
-    left: 84%;
-    font-style: normal;
-    color: #832729;
-}
-.top-logo4{
-    position: absolute;
-    top: 19%;
-    left: 90%;
-    font-style: normal;
     color: #832729;
 }
 /* nav item */
 .nav-item{
+    /* border: 2px solid red; */
+   
     width: 100%;
     height: 7.5vh;
     margin-top: 5%;
+    overflow: hidden;
     display: flex;
+    align-items: center;
+    gap: 11%;
     flex-direction: row;
    
    
 }
 .nav-item-name{
     position: relative;
-    top: 18px;
     text-decoration: none;
     color: black;
     font-size: 14px;
-    margin-left: 11.6%;
 }
 .one-item{
     margin-left: 5.8%;
 }
 .img-slide{
     /* border: 2px solid green; */
+  
     width: 200%;
     height:fit-content;
    
