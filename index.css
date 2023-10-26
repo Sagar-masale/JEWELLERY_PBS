@@ -31,29 +31,50 @@ body {
     
 }
 .Logo-Shop{
-    margin-left: 6%;
+    margin-left: 7.5%;
 }
 .search-container {
     /* border:2px solid #1e1919; */
-    /* display: flex; */
-   
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 55%;
     left: 14%;
     border-radius: 5px;
-   
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
-
 #search {
     border: none;
     outline: none;
     padding: 14px;
-    font-size: 14px;
-    width: 53vw;
-    color: #832729;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* background-color: white; */
+    width: 100%;
+    color: #000000;
     border-radius: 5px;
-    
-    
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
 }
+.voice-search, .search-btn{
+    padding: 6px;
+    background-color: white;
+    border: none;
+    outline: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.voice-search{
+    margin-right: 5px;
+}
+.mic, .search-nav{
+    color: #832729;
+    width: fit-content;
+    font-size: 24px;
+/*   
+    background-color: white; */
+}
+
 
 
 .logo-container {
@@ -87,6 +108,7 @@ body {
     width: 27%;
     height: 100%;
     display: flex;
+    align-items: center;
     gap: 10%;  
 }
 .top-nav-links{
