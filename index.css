@@ -30,6 +30,9 @@ body {
     z-index: 1;
     
 }
+.custome-bar{
+    display: none;
+}
 .Logo-Shop{
     margin-left: 7.5%;
 }
@@ -42,6 +45,9 @@ body {
     left: 14%;
     border-radius: 5px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.search-container-two{
+    display: none;
 }
 #search {
     border: none;
@@ -507,11 +513,4 @@ width: 100%;
 }
 .important-instructions:hover{
     color: rgba(0, 123, 255, 0.677);
-}
-@media screen and (max-width:1052px  ) {
-.swipe-L ,.swipe-R{
-    display: none;
-   
-}
-
 }
