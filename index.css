@@ -159,8 +159,7 @@ body {
     /* border: 2px solid green; */
   
     width: 100%;
-    height:fit-content;
-   
+    height: fit-content;
     /* overflow:auto; */
 }
 .img-box1, .img-box2{
@@ -247,7 +246,7 @@ body {
 }
 .line{
     width: 91%;
-    height: 60px;
+    height: 100%;
     margin-top: -1%;
 }
 .image-lists{
