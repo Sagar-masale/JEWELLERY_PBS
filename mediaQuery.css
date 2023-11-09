@@ -12,7 +12,7 @@
         }
     }
     @media screen and (max-width:768px  ) {
-      
+       
         .container,.nav-item-name{
             display:flex;
         }
@@ -104,7 +104,54 @@
         .title-name-Gender {
             font-size: 16px;
         }
-         .front-img1{
+        .front-img1{
             margin-top: 100px;
+        }
+        .fit-info-box {
+            width: 92%;
+            margin-top: 11%;
+        }
+        .info-box {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.316);
+            /* border: 1px solid black; */
+            flex:none;
+            width: 100%;
+        }
+        .Track-Your-Order {
+            margin-top: 3%;
+        }
+        .Go-info-link {
+            margin-top: 3%;
+            display: none;
+            
+        }
+        .information-link-head {
+            font-size: 1rem;
+            line-height: 2.5;
+        }
+        .Go-info-link-On-Click-One{
+            /* display: block; */
+            font-size: .9em;
+            margin-left: 2%;
+        }
+        .Go-info-link-On-Click-Two{
+            /* display: block; */
+            font-size: .9em;
+            margin-left: 2%;
+        }
+        .Go-info-link-On-Click-Third{
+            /* display: block; */
+            font-size: .9em;
+            margin-left: 2%;
+        }
+        .Go-FaceBook {
+            font-size: 30px;
+            margin-left: 0%;
+        }
+        .Go-InstaGram {
+            margin-left: 1%;
+        }
+        .Follow-Us{
+            margin-top: 5%;
         }
     }
