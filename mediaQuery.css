@@ -109,13 +109,48 @@
         }
         .fit-info-box {
             width: 92%;
-            margin-top: 11%;
+            margin-top: 8%;
         }
         .info-box {
             border-bottom: 1px solid rgba(0, 0, 0, 0.316);
             /* border: 1px solid black; */
             flex:none;
             width: 100%;
+        }
+        .End-category {
+            margin-top: 9%;
+            height: 72vh;
+            background-color: #f2e9e9;
+        }
+        .link-Head-Width{
+            width: fit-content;
+        }
+        .info-box1,.info-box2,.info-box3{
+            flex-direction: row;
+            align-items: center;
+        }
+        .Scroll-Links-Add{
+            display: block;
+            width: fit-content;
+            height: fit-content;
+            color:#832729;
+            font-size: 20px;
+            font-weight: 100;
+            margin-left: auto;
+            text-decoration: none;
+            font-family: none;
+            background-color: none;
+        }
+        .Scroll-Links-Remove{
+            width: fit-content;
+            height: fit-content;
+            color:#832729;
+            font-size: 20px;
+            font-weight: 100;
+            margin-left: auto;
+            text-decoration: none;
+            font-family: system-ui;
+            background-color: none;
         }
         .Track-Your-Order {
             margin-top: 3%;
@@ -126,6 +161,7 @@
             
         }
         .information-link-head {
+            font-weight: 100;
             font-size: 1rem;
             line-height: 2.5;
         }
@@ -152,6 +188,22 @@
             margin-left: 1%;
         }
         .Follow-Us{
-            margin-top: 5%;
+            margin-top: 2%;
+        }
+        .info-box4{
+            border: none;
+        }
+        .store-timing {
+            margin-top: 2%;
+        }
+        .row-Pbs-page-bottom {
+            width: 99%;
+            /* padding-bottom: 35px; */
+        }
+        .First-Add-Remove{
+            display: none
+        }
+        .First-Remove-Add{
+            display: block;
         }
     }
