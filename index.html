@@ -88,9 +88,9 @@
     </div>
 <div class="Occasion-category End-category">
    <div class="End-info"><div class="fit-info-box">
-    <div class="info-box info-box1"><h6 class="information-link-head">Useful Links</h6> <a href="#Track Your Order " class="Track-Your-Order Go-info-link Go-info-link-On-Click-One">Track Your Order</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Return</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Shipments</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Encircle Program</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Find a Store</a></div>
-    <div class="info-box info-box2"><h6 class="information-link-head">Information</h6> <a href="#Diamond Guide" class="Track-Your-Order Go-info-link Go-info-link-On-Click-Two">Diamond Guide</a><a href="#Blog " class="Go-info-link Go-info-link-On-Click-Two">Blog</a><a href="#Gemstone Guide" class="Go-info-link Go-info-link-On-Click-Two">Gemstone Guide</a><a href="#Metal Guide" class="Go-info-link Go-info-link-On-Click-Two">Metal Guide</a><a href="#About PBS" class="Go-info-link Go-info-link-On-Click-Two">About PBS</a></div>
-    <div class="info-box info-box3"><h6 class="information-link-head">Contact Us</h6><a href="#Track Your Order " class="Track-Your-Order Go-info-link  Go-info-link-On-Click-Third">PBSsupport@Goldcompany.com</a></div>
+    <div class="info-box info-box1"><h6 class="information-link-head link-Head-Width">Useful Links</h6> <a href="#Track Your Order " class="Track-Your-Order Go-info-link Go-info-link-On-Click-One">Track Your Order</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Return</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Shipments</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Encircle Program</a><a href="#Track Your Order " class="Go-info-link Go-info-link-On-Click-One">Find a Store</a><span class="Scroll-Links-Add " id="Scroll-first-Add">+</span><span class="Scroll-Links-Remove" id="Scroll-First-remove">-</span></div>
+    <div class="info-box info-box2"><h6 class="information-link-head link-Head-Width">Information</h6> <a href="#Diamond Guide" class="Track-Your-Order Go-info-link Go-info-link-On-Click-Two">Diamond Guide</a><a href="#Blog " class="Go-info-link Go-info-link-On-Click-Two">Blog</a><a href="#Gemstone Guide" class="Go-info-link Go-info-link-On-Click-Two">Gemstone Guide</a><a href="#Metal Guide" class="Go-info-link Go-info-link-On-Click-Two">Metal Guide</a><a href="#About PBS" class="Go-info-link Go-info-link-On-Click-Two">About PBS</a><span class="Scroll-Links-Add" id="Scroll-Second-Add">+</span><span class="Scroll-Links-Remove" id="Scroll-Second-remove">-</span></div>
+    <div class="info-box info-box3"><h6 class="information-link-head link-Head-Width">Contact Us</h6><a href="#Track Your Order " class="Track-Your-Order Go-info-link  Go-info-link-On-Click-Third">PBSsupport@Goldcompany.com</a><span class="Scroll-Links-Add" id="Scroll-Third-Add">+</span><span class="Scroll-Links-Remove" id="Scroll-Third-remove">-</span></div>
     <div class="info-box info-box4"><h6 class="information-link-head Follow-Us">Follow Us On <a href="#face" class="Go-FaceBook"><i class='bx bxl-facebook'></i></a><a href="https://instagram.com/p.b.salegaon_jewellers_?igshid=NzZlODBkYWE4Ng==" class="Go-InstaGram"><i class='bx bxl-instagram' ></i></a></h6><p class="store-timing">Store Timing 11.30 AM to 07:30 PMTuesday to Sunday</p></div>
     <div class="row-Pbs-page-bottom">
     <div class="End-Intro">
@@ -160,8 +160,42 @@ function shopOUTHovar6(){
     var hover = document.querySelector(".title-shope-now6").style.marginRight ="0";
     var hover = document.querySelector(".items-arrow6").style.left="7px";
 }
+var FirstAddClick=document.getElementById('Scroll-first-Add');
+    FirstAddClickRemove=document.getElementById('Scroll-first-Add');
+    FirstAddClick.addEventListener("click", ()=>{
+    FirstAddClickRemove.classList.toggle('First-Add-Remove');
+    })
+    var SecondAddClick=document.getElementById('Scroll-Second-Add');
+    SecondAddClickRemove=document.getElementById('Scroll-Second-Add');
+    SecondAddClick.addEventListener("click", ()=>{
+    SecondAddClickRemove.classList.toggle('First-Add-Remove');
+    })
+    var ThirdAddClick=document.getElementById('Scroll-Third-Add');
+    ThirdAddClickRemove=document.getElementById('Scroll-Third-Add');
+    ThirdAddClick.addEventListener("click", ()=>{
+    ThirdAddClickRemove.classList.toggle('First-Add-Remove');
+    })
 
-    
+
+
+    var FirstAddClick=document.getElementById('Scroll-first-Add');
+    FirstRemoveAdd=document.getElementById('Scroll-First-remove');
+    FirstAddClick.addEventListener("click", ()=>{
+    FirstRemoveAdd.classList.toggle('First-Remove-Add');
+    })
+    var SecondAddClick=document.getElementById('Scroll-Second-Add');
+    SecondRemoveAdd=document.getElementById('Scroll-Second-remove');
+    SecondAddClick.addEventListener("click", ()=>{
+    SecondRemoveAdd.classList.toggle('First-Remove-Add');
+    })
+    var ThirdAddClick=document.getElementById('Scroll-Third-Add');
+    ThirdRemoveAdd=document.getElementById('Scroll-Third-remove');
+    ThirdAddClick.addEventListener("click", ()=>{
+    ThirdRemoveAdd.classList.toggle('First-Remove-Add');
+    })
+
+
+
 </script>
 </body>
 </html>
