@@ -64,7 +64,26 @@
         }
         .img-slide {
             margin-top: 3%;
-        }    
+        }   
+        .Category-List-First-Box{
+            overflow: hidden;
+        } 
+        .Category-List-First {
+            flex-wrap: nowrap;
+            overflow: auto;
+            justify-content:start;
+            margin-left: 94%;
+            /* margin-left: -94%; */
+            width: fit-content;
+        }
+        .list-items {
+            height: 240px;
+            width: 230px;
+            margin: 0.5%;
+        }
+        .items4{
+            margin-left: 5%;
+        }
         .nav-item {
             display: none;
         }
@@ -75,13 +94,17 @@
             font-size: 14px;
             margin-top: -1%;
         }
-        .list-items {
-            height: 228px;
+       
+        .Gender-images{
+            border-radius: 5%;
         }
-        .image-lists {
+        .Gender-List {
+            border-radius: 5%;
+        }
+        /* .image-lists {
             width: 93%;
            
-        }
+        } */
         .title-arrow {
             left: 73%;
         }
@@ -112,7 +135,7 @@
             margin-top: 8%;
         }
         .info-box {
-            border-bottom: 1px solid rgba(0, 0, 0, 0.316);
+            border-bottom: 1px solid gray;
             /* border: 1px solid black; */
             flex:none;
             width: 100%;
@@ -169,6 +192,7 @@
         .Show-First-Box {
             width: 100%;
             height: 100%;
+            border:none;
             /* border: 2px solid red; */
             display: none;
         }
@@ -178,6 +202,7 @@
         .Show-Second-Box{
             width: 100%;
             height: 100%;
+            border: none;
             /* border: 2px solid red; */
             display: none;
         }
@@ -187,6 +212,7 @@
         .Show-Third-Box{
             width: 100%;
             height: 100%;
+            border: none;
             /* border: 2px solid red; */
             display: none;
         }
@@ -225,6 +251,7 @@
         }
         .row-Pbs-page-bottom {
             width: 99%;
+            border-top: 1px solid gray;
             /* padding-bottom: 35px; */
         }
         .First-Add-Remove{
