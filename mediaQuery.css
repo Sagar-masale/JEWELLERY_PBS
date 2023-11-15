@@ -72,8 +72,8 @@
             flex-wrap: nowrap;
             overflow: auto;
             justify-content:start;
-            margin-left: 94%;
-            /* margin-left: -94%; */
+            margin-left: 729px;
+            /* margin-left: -720px; */
             width: fit-content;
         }
         .list-items {
@@ -263,9 +263,98 @@
         /* .First-Add-Remove-Add{
             display: block;
         } */
-
-
-
-
-       
+        .shop-category-images {
+            width: 70%;
+        }
+    }
+    @media screen and (max-width:680px  ){
+        .Category-List-First {
+            margin-left: 628px;
+        }
+        .list-items {
+            height: 234px;
+            width: 197px;
+            /* margin: 0.3%; */
+        }
+    } 
+    @media screen and (max-width:425px  ){
+        .Category-List-First {
+            margin-left: 394px;
+        }
+        .shop-category-images {
+            width: 80%;
+        }
+        .list-items {
+            height: 159px;
+            width: 122px;
+        }
+        .card-title-name {
+            font-size: 80%;
+        }
+        .title-shope-now {
+            font-size: 80%;
+        }
+        .Res-Gender-List{
+            /* transition: 1s; */
+            /* border: 1px solid rgba(182, 182, 182, 0.46);
+            height: fit-content; */
+            flex: 0 1 103px;
+            /* text-decoration: none;
+            color: black; */
+        }
+        .title-name-Gender {
+            font-size: 80%;
+        }
+        /* .shope-now-G {
+            font-size: 55%;
+        } */
+        .Gender-Shop-Name{
+            font-size: 51%;
+            margin-right: -1px;
+            margin-left: -23%;
+        }
+        .Gender-Shop-Kid-Name{
+            font-size: 51%;
+            margin-left: 29%;
+            margin-right: -56%;
+        }
+        .Gender-Title-Arrow{
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width:330px  ){
+        .shop-c {
+            letter-spacing: 0.5px;
+            font-size: 17px;
+        }
+        .instruction {
+            font-size: 80%;
+            line-height: 1.875em;
+        }
+        .Category-List-First {
+            margin-left: 318px;
+        }
+        .shop-category-images {
+            width: 80%;
+        }
+        .Res-Gender-List3{
+            margin-top: 1.8%;
+        }
+        .list-items {
+            height: 134px;
+            width: 100px;
+        }
+        .card-title-name {
+            font-size: 74%;
+        }
+        .title-shope-now {
+            font-family: monospace;
+            font-size: 89%;
+        }
+        .bx-chevron-right:before {
+            content: "\ea50";
+        }
+        .items-arrow {
+            font-size: 14px;
+        }
     }
