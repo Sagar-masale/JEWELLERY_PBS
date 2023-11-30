@@ -297,6 +297,11 @@
         .title-shope-now {
             font-size: 80%;
         }
+        .The-P-Shop{
+            font-size: 10px;
+            margin-left: 41%;
+            margin-right: -26px;
+        }
         .Res-Gender-List{
             /* transition: 1s; */
             /* border: 1px solid rgba(182, 182, 182, 0.46);
@@ -322,7 +327,18 @@
             margin-right: -56%;
         }
         .Gender-Title-Arrow{
+            margin-left: -2%;
             font-size: 12px;
+        }
+        .Scroll-Links-Add {
+            margin-top: -6.5%;
+            margin-bottom: 4%;
+        }
+        .Scroll-Links-Remove {
+            margin-top: -7.5%;
+        }
+        .information-link-head {
+            line-height: 2;
         }
     }
     @media screen and (max-width:330px  ){
