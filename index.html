@@ -53,14 +53,16 @@
 <h2 class="shop-c">Shop By Category</h2><br>
 <p class="instruction">Browse through your favourite categories. We've got them all!</p><br>
 <img src="line.png" class="line"><br>
-<div class="image-lists Category-List-First">
+<div class="image-lists Category-List-First " id="Category-Move">
      <a href="#" class="list-items items1"><div class="list-item1" onmouseover="shopINHovar1()" onmouseout="shopOUTHovar1()"><div class="items-background"><img src="FingerRing.jpg" class="shop-category-images shop-category-img1"><div class="card-title"><h6 class="card-title-name">Finger Ring</h6><h6 class="title-shope-now title-shope-now1">Shope <i class='bx bx-chevron-right items-arrow items-arrow1'></i><br><span class="Now">Now</span> </h6></div></div> </div></a> 
      <a href="#" class="list-items items2"><div class="list-item2" onmouseover="shopINHovar2()" onmouseout="shopOUTHovar2()"><div class="items-background"><img src="Earrings.jpg" class="shop-category-images shop-category-img1"><div class="card-title"><h6 class="card-title-name">Earrings</h6><h6 class="title-shope-now title-shope-now2">Shope <i class='bx bx-chevron-right items-arrow items-arrow2'></i><br><span class="Now">Now</span> </h6></div></div> </div></a> 
      <a href="#" class="list-items items3"><div class="list-item3" onmouseover="shopINHovar3()" onmouseout="shopOUTHovar3()"><div class="items-background"><img src="Pendants.jpg" class="shop-category-images shop-category-img1"><div class="card-title"><h6 class="card-title-name">Pendants</h6><h6 class="title-shope-now title-shope-now3">Shope <i class='bx bx-chevron-right items-arrow items-arrow3'></i><br><span class="Now">Now</span> </h6></div></div> </div></a> 
      <a href="#" class="list-items items4"><div class="list-item4" onmouseover="shopINHovar4()" onmouseout="shopOUTHovar4()"><div class="items-background"><img src="Mangalsutra.jpg" class="shop-category-images shop-category-img1"><div class="card-title"><h6 class="card-title-name">Mangalsutra</h6><h6 class="title-shope-now title-shope-now4">Shope <i class='bx bx-chevron-right items-arrow items-arrow4'></i><br><span class="Now">Now</span> </h6></div></div> </div></a> 
      <a href="#" class="list-items items5"><div class="list-item5" onmouseover="shopINHovar5()" onmouseout="shopOUTHovar5()"><div class="items-background"><img src="Bangles.jpg" class="shop-category-images shop-category-img1"><div class="card-title"><h6 class="card-title-name">Bangles</h6><h6 class="title-shope-now title-shope-now5">Shope <i class='bx bx-chevron-right items-arrow items-arrow5'></i><br><span class="Now">Now</span> </h6></div></div> </div></a> 
      <a href="#" class="list-items items6"><div class="list-item6" onmouseover="shopINHovar6()" onmouseout="shopOUTHovar6()"><div class="items-background"><img src="Chains.jpg" class="shop-category-images shop-category-img1"><div class="card-title"><h6 class="card-title-name">Chains</h6><h6 class="title-shope-now title-shope-now6">Shope <i class='bx bx-chevron-right items-arrow items-arrow6'></i><br><span class="Now">Now</span> </h6></div></div> </div></a> 
+     
 </div>
+<div class="Switch-Category"><i class='bx bx-rotate-right switch-Items' id="switch-Items-rotate" ></i></div>
 </div>
 <!-- Thirs page -->
 <div class="shop-category Gender-category">
@@ -82,7 +84,7 @@
     <div class="image-lists image-lists-Gender">
         <a href="#" class="Gender-List"> <div class="Gender1 Gender-List Occasion-List"><img src="Everyday.jpg" class="Gender-images men-image" ><div class="Gender-name Occasion-name"><h6 class="title-name-Gender title-name-Occasion">Everyday Essentials</h6><p class="shope-now-G shope-now-Coccasion shope-now-Coccasion-Everdy">Shop Now</p><i class='bx bx-chevron-right title-arrow'></i></div></div></a> 
           <a href="#" class="Gender-List"></href><div class="Gender2 Gender-List  Occasion-List"><img src="wedding.jpg" class="Gender-images men-image" ><div class="Gender-name Occasion-name"><h6 class="title-name-Gender title-name-Occasion">Wedding Trousseaus</h6><p class="shope-now-G shope-now-Coccasion">Shop Now</p><i class='bx bx-chevron-right title-arrow'></i></div></div></a>
-        <a href="#" class="Gender-List"> <div class="Gender3 Gender-List  Occasion-List"><img src="party.jpg" class="Gender-images men-image" ><div class="Gender-name Occasion-name "><h6 class="title-name-Gender title-name-Occasion The-Party-Name">The Party Edit</h6><p class="shope-now-G shope-now-Coccasion shope-now-G-kid">Shop Now</p><i class='bx bx-chevron-right title-arrow title-arrow-theParty'></i></div></div></a>
+        <a href="#" class="Gender-List"> <div class="Gender3 Gender-List  Occasion-List"><img src="party.jpg" class="Gender-images men-image" ><div class="Gender-name Occasion-name "><h6 class="title-name-Gender title-name-Occasion The-Party-Name">The Party Edit</h6><p class="shope-now-G shope-now-Coccasion shope-now-G-kid The-P-Shop">Shop Now</p><i class='bx bx-chevron-right title-arrow title-arrow-theParty'></i></div></div></a>
   
       </div>
     </div>
@@ -266,7 +268,21 @@ var FirstAddClick=document.getElementById('Scroll-first-Add');
     ThirdRemoveClicked.addEventListener("click", ()=>{
         ThirdLinksRemovedClick.classList.toggle('Show-Third-Box-Clicked');
     })
+     
 
+    
+        var rotateClick = document.getElementById('switch-Items-rotate');
+        var rotateMove = document.getElementById('switch-Items-rotate');
+        rotateClick.addEventListener("click",()=>{
+            rotateMove.classList.toggle('rotate-moved')
+        })
+        var rotateClicks = document.getElementById('switch-Items-rotate');
+        var CategoryMoved = document.getElementById('Category-Move');
+        rotateClicks.addEventListener("click",()=>{
+            CategoryMoved.classList.toggle('Category-List-First-Move')
+        })
+    
+    
 
    
     
