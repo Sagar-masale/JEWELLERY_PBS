@@ -21,6 +21,9 @@ body {
 .Scroll-Links-Remove{
     display: none
 }
+.Switch-Category{
+    display: none;
+}
 .container{
     position: fixed;
     top: 0;
