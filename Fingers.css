@@ -152,13 +152,21 @@
 .Ring-Box{
     border: 1px solid rgba(215, 215, 215, 0.599);
     flex: 1 1 250px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     /* width: 20%;
     height: 60Svh; */
+
+}
+.Ring-Box:hover{
+        box-shadow: 0 2px 18px rgba(255, 199, 199, 0.867);
+
 }
 .Ring-Img-Box{
     /* border: 1px solid green; */
     width: 100%;
     height:68% ;
+    
 }
 .Compare-Img-Box{
     border: 1px solid yellow;
@@ -170,6 +178,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 .Add-Img-Box{
     border: 1px solid rgb(34, 255, 0);
@@ -177,10 +186,14 @@
     width: 37px;
     height: 5%;
     margin-left: 17.2%;
+    z-index: 1;
 }
 .Finger-Style{
     width: 100%;
     height: 100%;
+}
+.Finger-Style:hover{
+    filter: blur(2px);
 }
 .Compare-Arrow-Img{
     color: #832729;
