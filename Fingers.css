@@ -34,7 +34,7 @@
     font-size: 22px;
 }
 .Ring-Container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: fit-content;
 }
@@ -142,7 +142,7 @@
     justify-content: center;
 }
 .Show-Rings-Box {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     width: 87%;
     height: fit-content;
     margin-left: 7%;
@@ -156,7 +156,7 @@
 }
 .Ring-Box{
     border: 1px solid rgba(215, 215, 215, 0.599);
-    flex: 1 1 250px;
+    flex: 1 1 150px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     /* width: 20%;
@@ -280,4 +280,70 @@
     transition: .3s;
     background-color: #832729;
     color: white;
+}
+/* .Quick-View-Box{
+    position:absolute;
+    border: 1px solid red;
+    z-index: 1;
+    
+} */
+.Add-Img-Box{
+    display: none;
+}
+@media screen and (max-width:1025px  ) {
+   
+    .container,.nav-item-name{
+        display: flex;
+    }
+    .Show-Rings-Box {
+        width: 92%;
+        margin-left: 4%;
+        margin-top: 6%;
+        gap: 2.8%;
+    }
+}
+@media screen and (max-width:768px  ) {
+   
+    .Show-Rings-Box {
+        width: 88%;
+        margin-left: 6%;
+        margin-top: 0%;
+        gap: 4%;
+    }
+    .Ring-Box{
+        flex: 1 1 208px;
+        margin-top: 5%;
+        /* width: 20%;
+        height: 60Svh; */
+    
+    }
+    .nav-item {
+        display: none;
+    }
+    .Ring-Container {
+        margin-top: 128px;
+    }
+    .Compare-Box,.BEST-SELLER-BOX {
+    
+        display: none;
+    }
+.Ring-Items-Nav{
+    display: none;
+}
+}
+@media screen and (max-width:501px  ) {
+    .Show-Rings-Box {
+        gap: 5%;
+    }
+    .Ring-Box{
+        flex: 1 1 145px;
+        /* width: 20%;
+        height: 60Svh; */
+    
+    }
+}
+@media screen and (max-width:501px  ) {
+    .Show-Rings-Box {
+        gap: 6.5%;
+    }
 }
