@@ -174,8 +174,8 @@
     
 }
 .Compare-Img-Box{
-/*     border: 1px solid yellow;
-    margin-left: .5%; */
+    /* border: 1px solid yellow; */
+    margin-left: .5%;
     margin-top: .5%;
     position: absolute;
     width: 37px;
@@ -310,6 +310,17 @@
         margin-top: 0%;
         gap: 4%;
     }
+    .Img-Info-Box{
+        border-top: 1px solid rgba(154, 154, 154, 0.911);
+        width: 100%;
+        /* height: 110px; */
+        /* height: 160px; */
+        height: fit-content;
+    }
+    .Explore-Box,.Gender-Name,.Type-Of-Ring{
+        display: none;
+    }
+ 
     .Ring-Box{
         flex: 1 1 208px;
         margin-top: 5%;
@@ -322,6 +333,9 @@
     }
     .Ring-Container {
         margin-top: 128px;
+    }
+    .Card-Price {
+        margin-bottom: 7%;
     }
     .Compare-Box,.BEST-SELLER-BOX {
     
@@ -337,13 +351,33 @@
     }
     .Ring-Box{
         flex: 1 1 145px;
+        margin-top: 6%;
         /* width: 20%;
         height: 60Svh; */
     
+    }
+    .Compare-Arrow-Img {
+        font-size: 13px;
+        width: 19px;
+        height: 19px;
+    }
+    .Card-Title ,.Price-Rate,.Doller{
+        font-weight: 500;
     }
 }
 @media screen and (max-width:501px  ) {
     .Show-Rings-Box {
         gap: 6.5%;
     }
+}
+@media screen and (max-width:357px  ) {
+     
+    .Ring-Box{
+        flex: 1 1 90px;
+        margin-top: 7%;
+        /* width: 20%;
+        height: 60Svh; */
+    
+    }
+    
 }
