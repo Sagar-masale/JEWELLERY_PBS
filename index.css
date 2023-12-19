@@ -429,7 +429,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: fit-content;
 }
 .fit-info-box{
     display: flex;
@@ -507,6 +507,7 @@ width: 100%;
 .End-Intro{
     /* border: 1px solid black; */
     margin-top: 5%;
+    margin-bottom: 29px;
     width: 100%;
     height: 39px;
     display: flex;
