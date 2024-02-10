@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,0,-25" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,200,0,-25" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,21 @@
 <body>
  
     <div class="header container">
-      <div class="Skider-Bar"></div>
+      <div class="Slider-Bar Slider-Bar-In" id="SliderBar">
+        <!-- <i class='bx bx-left-arrow-alt '></i> -->
+        <span class="material-symbols-outlined Slider-Bar-Exit" onclick="SliderMove()">
+          arrow_back
+          </span>
+          <div class="Login-SignUp-Box">
+          <div class="Login-Box">
+            <a href="#login" class="Login-Names">LOGIN</a>
+            <a href="#signup" class="Login-Names">SIGNUP</a>
+          </div>
+          </div>
+     
+      </div>
       
-      <div class="custome-bar"><span class="material-symbols-outlined menu-items">
+      <div class="custome-bar" onclick="SliderMove()"><span class="material-symbols-outlined menu-items">
       menu
       </span></div>
         <div class="Logo-Shop">
@@ -111,6 +124,12 @@
 
 </div>
 <script src="main.js"></script>
+<script>
+function SliderMove(){
+  var SliderBarButton=document.getElementById("SliderBar");
+  SliderBarButton.classList.toggle("Slider-Bar-In");
+}
+</script>
 </body>
 </html>
 
