@@ -12,6 +12,9 @@
         }
     }
     @media screen and (max-width:768px  ) {
+        .Slider-Bar{
+            display: block;
+        }
        
         .container,.nav-item-name{
             display:flex;
