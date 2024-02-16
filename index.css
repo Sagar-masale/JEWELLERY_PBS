@@ -102,7 +102,7 @@ body {
     margin-top: -5.5%;
     text-decoration: none;
     background-color: none;
-    transition: .3s;
+    transition: .2s;
 }
 .Rotate-Arrow{
     rotate: 90deg;
@@ -112,6 +112,7 @@ body {
     
 }
 
+
 .Show-Login-Box1,.Show-Login-Box2{
     display: flex;
     flex-direction: column;
@@ -120,11 +121,12 @@ body {
      /* display: none; */
     
 }
-.Show-Jewellery-Opt,.Show-Gold-Opt{
+.Show-Jewellery-Opt,.Show-Gold-Opt,.Show-Diamond-Opt,.Show-Wedding-Opt{
     
     display: none;
     
 }
+
 /* .Show-Gold-Opt{
     display: none;
 } */
@@ -632,3 +634,7 @@ width: 100%;
 .important-instructions:hover{
     color: rgba(0, 123, 255, 0.677);
 }
+
+
+
+
