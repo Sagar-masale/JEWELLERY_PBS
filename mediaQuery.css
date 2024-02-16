@@ -212,6 +212,13 @@
             /* display: none; */
             
         }
+        .menu-items-Name-Color{
+            color: #832729;
+        }
+        .Bold-View{
+            color: black;
+            text-decoration: underline;
+        }
         .Show-First-Box {
             width: 100%;
             height: 100%;
@@ -252,6 +259,9 @@
             font-weight: 100;
             font-size: 1rem;
             line-height: 3.5;
+        }
+        .Bold-Name{
+            font-weight: bold;
         }
         /* .Track-Your-Order {
             display: block;
