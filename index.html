@@ -29,9 +29,15 @@
           
           </div>
           <div class="In-Login-Box">
-            <div class="In-Login-Box-Info" ><h6 class="information-link-head link-Head-Width Login-Names-In-Box">Jewellery</h6><span class="material-symbols-outlined Show-InBox-Info " id="rotate-arrow-List" onclick="ShowJewelleryOPT()">arrow_forward_ios</span><div class="Show-Login-Box Show-Jewellery-Opt Show-Login-Box1 " id="Login-Jewellery-Info" ><a href="#Track Your Order "  class="Track-Your-Order Go-info-link " >Metal and Stone</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link ">Category</a><a href="#Track Your Order " class="Go-info-link ">Curated Shops</a><a href="#Track Your Order " class="Go-info-link">Shop For</a></div></div>
-            <div class="In-Login-Box-Info"><h6 class="information-link-head link-Head-Width Login-Names-In-Box">Gold</h6><span class="material-symbols-outlined Show-InBox-Info" id="rotate-arrow-List-Gold" onclick="ShowGoldOPT()">arrow_forward_ios</span><div class="Show-Login-Box Show-Gold-Opt Show-Login-Box2" id="Login-Gold-Info"><a href="#Track Your Order "  class="Track-Your-Order Go-info-link ">Bangle</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link ">Earrings</a><a href="#Track Your Order " class="Go-info-link ">Gold Chains</a><a href="#Track Your Order " class="Go-info-link">Pendants</a><a href="#Track Your Order " class="Go-info-link">Finger Rings</a><a href="#Track Your Order " class="Go-info-link">Necklace Set</a><a href="#Track Your Order " class="Go-info-link">View All</a></div></div>
-           
+            <div class="In-Login-Box-Info" ><h6 class="information-link-head link-Head-Width Login-Names-In-Box" id="Jewellery-Name">Jewellery</h6><span class="material-symbols-outlined Show-InBox-Info " id="rotate-arrow-List" onclick="ShowJewelleryOPT()">arrow_forward_ios</span><div class="Show-Login-Box Show-Jewellery-Opt Show-Login-Box1 " id="Login-Jewellery-Info" ><a href="#Track Your Order "  class="Track-Your-Order Go-info-link menu-items-Name-Color" >Metal and Stone</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link menu-items-Name-Color">Category</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Curated Shops</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Shop For</a></div></div>
+            <div class="In-Login-Box-Info"><h6 class="information-link-head link-Head-Width Login-Names-In-Box" id="Gold-Name">Gold</h6><span class="material-symbols-outlined Show-InBox-Info" id="rotate-arrow-List-Gold" onclick="ShowGoldOPT()">arrow_forward_ios</span><div class="Show-Login-Box Show-Gold-Opt Show-Login-Box2" id="Login-Gold-Info"><a href="#Track Your Order "  class="Track-Your-Order Go-info-link menu-items-Name-Color">Bangle</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link menu-items-Name-Color">Earrings</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Gold Chains</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Pendants</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Finger Rings</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Necklace Set</a><a href="#Track Your Order " class="Go-info-link Bold-View">View All</a></div></div>
+            <div class="In-Login-Box-Info"><h6 class="information-link-head link-Head-Width Login-Names-In-Box" id="Diamond-Name">Diamond</h6><span class="material-symbols-outlined Show-InBox-Info" id="rotate-arrow-List-Diamond" onclick="ShowDiamondOPT()">arrow_forward_ios</span><div class="Show-Login-Box Show-Diamond-Opt Show-Login-Box2" id="Login-Diamond-Info"><a href="#Track Your Order "  class="Track-Your-Order Go-info-link menu-items-Name-Color">Bangle</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link menu-items-Name-Color">Earrings</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Gold Chains</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Pendants</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Finger Rings</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Necklace Set</a><a href="#Track Your Order " class="Go-info-link Bold-View">View All</a></div></div>
+            
+            <div class="In-Login-Box-Info" ><h6 class="information-link-head link-Head-Width Login-Names-In-Box" id="Jewellery-Name">Earrings</h6></div>
+            <div class="In-Login-Box-Info" ><h6 class="information-link-head link-Head-Width Login-Names-In-Box" id="Jewellery-Name" style="line-height: 1.5;">Rings</h6></div>
+            <div class="In-Login-Box-Info" ><h6 class="information-link-head link-Head-Width Login-Names-In-Box" id="Jewellery-Name">Necklace Set</h6></div>
+            <div class="In-Login-Box-Info" style="margin-top: -19px;"><h6 class="information-link-head link-Head-Width Login-Names-In-Box" id="Jewellery-Name">Jewellery</h6><span class="material-symbols-outlined Show-InBox-Info " id="rotate-arrow-List" onclick="ShowJewelleryOPT()">arrow_forward_ios</span><div class="Show-Login-Box Show-Jewellery-Opt Show-Login-Box1 " id="Login-Jewellery-Info" ><a href="#Track Your Order "  class="Track-Your-Order Go-info-link menu-items-Name-Color" >Metal and Stone</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link menu-items-Name-Color">Category</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Curated Shops</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Shop For</a></div></div>
+          
           </div>
      
       </div>
@@ -143,6 +149,9 @@ function ShowJewelleryOPT(){
   ShowJewellery.classList.toggle("Show-Jewellery-Opt");
   var rotateArrow=document.getElementById("rotate-arrow-List");
   rotateArrow.classList.toggle("Rotate-Arrow");
+  // var JewelleryName=document.getElementById("Jewellery-Name").style.fontWeight="600".toggle;
+  var JewelleryName=document.getElementById("Jewellery-Name");
+  JewelleryName.classList.toggle("Bold-Name");
   
 }
 function ShowGoldOPT(){
@@ -150,6 +159,16 @@ function ShowGoldOPT(){
   ShowGold.classList.toggle("Show-Gold-Opt");
   var rotateArrowGold=document.getElementById("rotate-arrow-List-Gold");
   rotateArrowGold.classList.toggle("Rotate-Arrow");
+  var GoldName=document.getElementById("Gold-Name");
+  GoldName.classList.toggle("Bold-Name");
+}
+function ShowDiamondOPT(){
+  var ShowDiamond=document.getElementById("Login-Diamond-Info");
+  ShowDiamond.classList.toggle("Show-Diamond-Opt");
+  var rotateArrowDiamond=document.getElementById("rotate-arrow-List-Diamond");
+  rotateArrowDiamond.classList.toggle("Rotate-Arrow");
+  var DiamondName=document.getElementById("Diamond-Name");
+  DiamondName.classList.toggle("Bold-Name");
 }
 </script>
 </body>
