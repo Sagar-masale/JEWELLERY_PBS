@@ -38,9 +38,9 @@ body {
     background-color: #f2e9e9;
     background-image: url(index_img/SlideBarImg.webp);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: none;
 }
 .Slider-Bar-In{
@@ -57,7 +57,7 @@ body {
     margin-left: 5%;
     margin-top: -13px;
     height: 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     display: flex;
     justify-content: end;
@@ -73,7 +73,7 @@ body {
 }
 .Login-Names{
     text-decoration: none;
-    color: #832729;
+    color:#832729;
     cursor: pointer;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
@@ -82,24 +82,30 @@ body {
     width: 100%;
     height: 63%;
     border: 1px solid whitesmoke;
-    background-color: rgba(255, 255, 255, 0.784);
+    background-color: rgba(255, 255, 255, 0.956);
+}
+.In-Login-Box-For-Slide-Menue-Bar{
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
 }
 .In-Login-Box-Info{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     height: fit-content;
-    flex: 1 1 200px;
+    /* flex: 1 1 200px; */
     
 }
 .Show-InBox-Info{
     display: block;
     width: fit-content;
     height: fit-content;
-    color: #832729;
+    color:#c35c5e;
     font-size: 19px;
     margin-left: auto;
     margin-right: 3%;
-    margin-top: -5.5%;
+    /* margin-top: -5.5%; */
     text-decoration: none;
     background-color: none;
     transition: .2s;
@@ -116,13 +122,14 @@ body {
 .Show-Login-Box1,.Show-Login-Box2{
     display: flex;
     flex-direction: column;
-    /* margin-top: -3.5%; */
+    margin-top: -3.5%;
     margin-left: 3.2%;
+    transition: 1s;
      /* display: none; */
     
 }
 .Show-Jewellery-Opt,.Show-Gold-Opt,.Show-Diamond-Opt,.Show-Wedding-Opt{
-    
+    transition: 1s;
     display: none;
     
 }
