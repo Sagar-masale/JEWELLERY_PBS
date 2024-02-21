@@ -38,6 +38,8 @@
             <div class="In-Login-Box-Info" ><h6 class="information-link-head  link-Head-Width Login-Names-In-Box" style="line-height: normal;font-size: 0.9rem;color: #af5254;">Rings</h6></div>
             <div class="In-Login-Box-Info" ><h6 class="information-link-head  link-Head-Width Login-Names-In-Box" style="line-height: normal;font-size: 0.9rem;color: #af5254;">Necklace Set</h6></div>
             <div class="In-Login-Box-Info" ><h6 class="information-link-head  link-Head-Width Login-Names-In-Box" id="Wedding-Name" style="line-height: normal;font-size: 0.9rem;color: #af5254;">Wedding</h6><span class="material-symbols-outlined Show-InBox-Info " id="rotate-arrow-List-Wedding" onclick="ShowWeddingOPT()">arrow_forward_ios</span></div><div class="Show-Login-Box Show-Wedding-Opt Show-Login-Box1 " id="Login-Wedding-Info" ><a href="#Track Your Order "  class="Track-Your-Order Go-info-link menu-items-Name-Color" >Jewellery</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link menu-items-Name-Color">Engagement</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Shop For</a></div>
+            <div class="In-Login-Box-Info" ><h6 class="information-link-head  link-Head-Width Login-Names-In-Box" id="Gifting-Name" style="line-height: normal;font-size: 0.9rem;color: #af5254;">Gifting</h6><span class="material-symbols-outlined Show-InBox-Info " id="rotate-arrow-List-Gifting" onclick="ShowGiftingOPT()">arrow_forward_ios</span></div><div class="Show-Login-Box Show-Gifting-Opt Show-Login-Box1 " id="Login-Gifting-Info" ><a href="#Track Your Order "  class="Track-Your-Order Go-info-link menu-items-Name-Color" >Below 500 USD</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link menu-items-Name-Color">500 - 1000 USD</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">1000 - 2000 USD</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">2000 - 5000 USD</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Above 5000 USD</a></div>
+            <div class="In-Login-Box-Info" ><h6 class="information-link-head  link-Head-Width Login-Names-In-Box" id="Collections-Name" style="line-height: normal;font-size: 0.9rem;color: #af5254;">Collections</h6><span class="material-symbols-outlined Show-InBox-Info " id="rotate-arrow-List-Collections" onclick="ShowCollectionsOPT()">arrow_forward_ios</span></div><div class="Show-Login-Box Show-Collections-Opt Show-Login-Box1 " id="Login-Collections-Info" ><a href="#Track Your Order "  class="Track-Your-Order Go-info-link menu-items-Name-Color" >Dharohar</a><a href="#Track Your Order " class="Track-Your-Order Go-info-link menu-items-Name-Color">kakatiya</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Aarambh</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Akshayam</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Aaheli</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Aveer</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Devyani</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Utsaah</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Mangalam</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Ekatvam</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Nyusha</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Utsava</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Swayahm</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Shagun</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Udayam</a><a href="#Track Your Order " class="Go-info-link menu-items-Name-Color">Little Big Moments</a></div>
             
           </div>
      
@@ -178,6 +180,22 @@ function ShowWeddingOPT(){
   rotateArrowWedding.classList.toggle("Rotate-Arrow");
   var WeddingName=document.getElementById("Wedding-Name");
   WeddingName.classList.toggle("Bold-Name");
+}
+function ShowGiftingOPT(){
+  var ShowGifting=document.getElementById("Login-Gifting-Info");
+  ShowGifting.classList.toggle("Show-Gifting-Opt");
+  var rotateArrowGifting=document.getElementById("rotate-arrow-List-Gifting");
+  rotateArrowGifting.classList.toggle("Rotate-Arrow");
+  var GiftingName=document.getElementById("Gifting-Name");
+  GiftingName.classList.toggle("Bold-Name");
+}
+function ShowCollectionsOPT(){
+  var ShowCollections=document.getElementById("Login-Collections-Info");
+  ShowCollections.classList.toggle("Show-Collections-Opt");
+  var rotateArrowCollections=document.getElementById("rotate-arrow-List-Collections");
+  rotateArrowCollections.classList.toggle("Rotate-Arrow");
+  var CollectionsName=document.getElementById("Collections-Name");
+  CollectionsName.classList.toggle("Bold-Name");
 }
 </script>
 </body>
