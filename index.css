@@ -40,6 +40,7 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
+    overflow: auto;
     /* border: 2px solid red; */
     display: none;
 }
@@ -80,8 +81,8 @@ body {
 }
 .In-Login-Box{
     width: 100%;
-    height: 63%;
-    border: 1px solid whitesmoke;
+    /* height: 63%; */
+    /* border: 1px solid whitesmoke; */
     background-color: rgba(255, 255, 255, 0.956);
 }
 .In-Login-Box-For-Slide-Menue-Bar{
@@ -94,7 +95,7 @@ body {
     flex-direction: row;
     align-items: center;
     height: fit-content;
-    /* flex: 1 1 200px; */
+    flex: 1 1 44px;
     
 }
 .Show-InBox-Info{
@@ -122,13 +123,21 @@ body {
 .Show-Login-Box1,.Show-Login-Box2{
     display: flex;
     flex-direction: column;
+    margin-top: -1.5%;
+    margin-bottom: 1%;
+    margin-left: 3.2%;
+    transition: 1s;
+    /* display: none;
+    /* display: flex;
+    flex-direction: column;
     margin-top: -3.5%;
     margin-left: 3.2%;
     transition: 1s;
-     /* display: none; */
+     display: none; */
+     
     
 }
-.Show-Jewellery-Opt,.Show-Gold-Opt,.Show-Diamond-Opt,.Show-Wedding-Opt{
+.Show-Jewellery-Opt,.Show-Gold-Opt,.Show-Diamond-Opt,.Show-Wedding-Opt,.Show-Gifting-Opt,.Show-Collections-Opt{
     transition: 1s;
     display: none;
     
